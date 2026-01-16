@@ -1,50 +1,109 @@
-# Welcome to your Expo app 👋
+<div align="center">
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 📋 Let’s Be Organized  
+### A Minimalist Todo App for Daily Productivity
 
-## Get started
+<p>
+  <img src="https://img.shields.io/badge/Built%20With-Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
+  <img src="https://img.shields.io/badge/Framework-React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+</p>
 
-1. Install dependencies
+<p>
+  <b>Stay organized. Stay focused.</b><br/>
+  A clean and efficient Todo application designed for daily productivity.
+</p>
 
-   ```bash
-   npm install
-   ```
+[Features](#-features) • [Download APK](#-download-apk) • [Getting Started](#-getting-started)
 
-2. Start the app
+</div>
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Features
 
-In the output, you'll find options to open the app in a
+| Feature | Description |
+| :--- | :--- |
+| 📝 **Add Tasks** | Quickly add daily tasks with a simple input flow |
+| ✅ **Mark Complete** | One-tap task completion |
+| 💾 **Persistent Storage** | Tasks saved locally using AsyncStorage |
+| 🌙 **Dark UI** | Clean, eye-friendly dark theme |
+| ⚡ **Fast & Lightweight** | Built with performance in mind |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🛠 Tech Stack
 
-When you're ready, run:
+- **Framework:** React Native + Expo  
+- **Language:** TypeScript (`.tsx`)  
+- **Navigation:** Expo Router  
+- **Storage:** AsyncStorage  
+
+---
+
+## 📁 Project Structure
 
 ```bash
-npm run reset-project
+app/
+├── _layout.tsx       # App layout & routing
+├── index.tsx         # Main Todo screen
+src/
+└── components/
+    └── TaskItem.tsx  # Reusable task component
+````
+
+---
+
+## 📦 Download APK
+<img width="1171" height="878" alt="image" src="https://github.com/user-attachments/assets/e44a77ee-2b9f-452d-b6cf-b8030d9f0024" />
+<!-- <img width="363" height="759" alt="image" src="https://github.com/user-attachments/assets/9529012d-3237-45f1-8521-a2c9f9ecc740" /> -->
+<img width="346" height="774" alt="image" src="https://github.com/user-attachments/assets/b1734f8a-1ae4-4633-820b-3d0410ad932f" />
+<img width="359" height="751" alt="image" src="https://github.com/user-attachments/assets/06af9d55-1858-482c-9ce1-49f4252d4861" />
+
+
+
+
+You can directly install and test the Android application using the APK below:
+
+🔗 **APK Download:**
+[https://drive.google.com/file/d/1xwo3ahD8Qn4vY96tZRru43cQqbLwb4xs/view](https://drive.google.com/file/d/1xwo3ahD8Qn4vY96tZRru43cQqbLwb4xs/view)
+
+> Enable **“Install from Unknown Sources”** on your Android device if prompted.
+
+---
+
+## ▶️ Getting Started (Development)
+
+If you want to run the project locally:
+
+### 1️⃣ Install dependencies
+
+```bash
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2️⃣ Start the Expo server
 
-## Learn more
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 3️⃣ Run on device
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+* Scan the QR code using **Expo Go**
+* Or press `w` to run on web
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 👤 Author
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**Sumit Kumar**
+Aspiring Software Engineer | React Native Developer
+
+---
+
+## 🔒 License & Usage
+
+This project is **not open source**.
+All rights reserved.
+The code and APK are intended **for demonstration, learning, and portfolio use only**.
+
